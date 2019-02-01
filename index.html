@@ -45,14 +45,14 @@
       <ul class="five-reasons">
 
         <li>
-          <img src="img/true_town.jpg" width="800" height="401" alt="Городок Седона">
+          <img src="img/true_town.jpg" width="800" height="401" alt="Домики в Седоне">
           <p>Настоящий городок</p>
           <p>— №1 —</p>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </li>
 
         <li>
-          <img src="img/devils_bridge.jpg" width="800" height="400" alt="Мост дьявола">
+          <img src="img/devils_bridge.jpg" width="800" height="400" alt="Узкий проход по горе">
           <p>Там есть мост дьявола</p>
           <p>— №2 —</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -109,16 +109,38 @@
         и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     </section>
 
-    <p class="future-button">Поиск гостиницы в Седоне</p>
+    <button type="button" class="button button-search">Поиск гостиницы в Седоне</button>
 
     <section class="search-hotel">
       <h2 class="visually-hidden">Выбрать даты поезки</h2>
 
-      <form class="search-form">
-        <!-- Здесь будет форма поиска !-->
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+
+        <label>Дата заезда:
+          <input type="text" name="check-in" value="24 апреля 2017">
+        </label>
+
+        <label>Дата выезда:
+          <input type="text" name="check-out" value="4 июля 2017">
+        </label>
+
+        <label>Взрослые:
+          <button type="button" class="button button-minus">Минус</button>
+          <input type="text" name="adults" value="2">
+          <button type="button" class="button button-plus">Плюс</button>
+        </label>
+
+        <label>Дети:
+          <button type="button" class="button button-minus">Минус</button>
+          <input type="text" name="children" value="0">
+          <button type="button" class="button button-plus">Плюс</button>
+        </label>
+
+        <button class="button button-find" type="submit">Найти</button>
+
       </form>
 
-      <p><img src="img/map.jpg" width="1200" height="594" alt="Карта"></p>
+      <p><img src="img/map.jpg" width="1200" height="594" alt="Карта Седоны"></p>
     </section>
 
   </main>

@@ -28,12 +28,78 @@
 
     <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
-      <!-- Здесь будут фильтры -->
+
+      <form class="main-search-form" action="https://echo.htmlacademy.ru" method="post">
+
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+
+          <ul class="Facilities">
+            <li><label for="swimming-pool">
+                <input type="checkbox" name="swimming-pool" id="swimming-pool" checked> Бассейн
+              </label></li>
+
+            <li><label for="parking-lot">
+                <input type="checkbox" name="parking-lot" id="parking-lot"> Парковка
+              </label></li>
+
+            <li><label for="Wi-fi">
+                <input type="checkbox" name="Wi-fi" id="Wi-fi"> Wi-fi
+              </label></li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Тип жилья:</legend>
+
+          <ul class="Building-type">
+
+            <li><label for="hotel">
+                <input type="checkbox" name="hotel" id="hotel" checked> Гостиница
+              </label></li>
+
+            <li><label for="motel">
+                <input type="checkbox" name="motel" id="motel" checked> Мотель
+              </label></li>
+
+            <li><label for="Apartment">
+                <input type="checkbox" name="Apartment" id="Apartment" checked> Апартаменты
+              </label></li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+          <input type="text" name="start" value="От 0">
+          <input type="text" name="end" value="До 3000">
+
+          <div aria-label="Бегунок: стоимость в сутки от"></div>
+          <div aria-label="Бегунок: стоимость в сутки до"></div>
+        </fieldset>
+
+        <button class="button hotels-button button-show" type="submit">Показать</button>
+
+      </form>
     </section>
 
     <section class="sort">
       <h2 class="visually-hidden">Сортировка гостиниц</h2>
-      <!-- Здесь будет сортировка-->
+
+      <p>Найдено:
+        <span>3</span>
+      </p>
+
+      <p>Сортировка:</p>
+
+      <ul class="sorting">
+        <li><a href="#">По цене</a></li>
+        <li><a href="#">По типу</a></li>
+        <li><a href="#">По рейтингу</a></li>
+      </ul>
+
+      <button class="button hotels-button button-up" type="button">По возрастанию</button>
+      <button class="button hotels-button button-down" type="button">По убыванию</button>
+
     </section>
 
     <section class="hotels">
