@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:focus {
+  color: #cacaca;
+}
+
+.site-navigation-current a {
+  color: #766357;
+}
+
+.main-picture {
+  background-image: url("img/intro.jpg");
+  background-color: #daebf3;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro p:first-of-type {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.intro p:last-of-type {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.five-reasons,
+.components {
+  list-style: none;
+}
+
+.reasons-item,
+.reason-one,
+.reason-two,
+.components-item {
+  text-align: center;
+}
+
+.reason-one p,
+.reason-two p {
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.reason-one p:first-of-type,
+.reason-two p:first-of-type {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.reason-one {
+  background-color: #81b3d2;
+}
+
+.reason-two {
+  background-color: #81b3d2;
+}
+
+.reasons-item p,
+.components-item p {
+  line-height: 21px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.reasons-item p:first-of-type,
+.components-item p:first-of-type {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.best-offers {
+  text-align: center;
+}
+
+.best-offers p:last-of-type {
+  line-height: 24px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.best-offers p:first-of-type {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.button-search {
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #766357;
+  border: none;
+}
+
+.button-search:hover {
+  background-color: #604e43;
+}
+
+.button-search:focus {
+  background-color: #503e33;
+  color: #928a85;
+}
+
+.search-hotel {
+  font-weight: bold;
+}
+
+.form-fields {
+  background-color: #f2f2f2;
+}
+
+.form-fields:hover {
+  background-color: #ebebeb;
+}
+
+.form-fields:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.button-minus,
+.button-plus {
+  color: #a9a9a9;
+}
+
+.button-minus:hover,
+.button-plus:hover {
+  color: #000000;
+}
+
+.button-minus:focus,
+.button-plus:focus {
+  color: #81b3d2;
+}
+
+.button-find {
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button-find:hover {
+  background-color: #669ec0;
+}
+
+.button-find:focus {
+  background-color: #5496bd;
+  color: #94b9d2;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.social-buttons {
+  list-style: none;
+}
+
+.social-button {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.social-button:hover {
+  background-color: #669ec0;
+}
+
+.social-button:focus {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
+
+.hotel-list,
+.sorting,
+.facilities,
+.building-type {
+  list-style: none;
+}
+
+.filters {
+  background-color: #64696f;
+  background-image: url("img/filter-background.jpg");
+}
+
+.main-search-form legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #000000;  /* Сделать фон прозрачным */
+}
+
+.facilities {
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #000000;  /* Сделать фон прозрачным */
+}
+
+.building-type {
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #000000;  /* Сделать фон прозрачным */
+}
+
+.choose-price {
+  font: inherit;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #000000;  /* Сделать фон прозрачным */
+  border: 2px solid #ffffff;
+}
+
+.button-show {
+  font: inherit;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #000000;  /* Сделать фон прозрачным */
+  border: 2px solid #ffffff;
+}
+
+.button-show:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+}
+
+.search-report,
+.search-result {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.sorting-header {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.by-parameter a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.by-parameter a:hover {
+  color: #81b3d2;
+}
+
+.by-parameter a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
+.current-sorting a {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.ascending a,
+.descending a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+}
+
+.ascending a:hover,
+.descending a:hover {
+  color: #000000;
+}
+
+.ascending a:focus,
+.descending a:focus {
+  color: #81b3d2;
+}
+
+.current-direction a {
+  color: #81b3d2;
+}
+
+.hotel-name {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hotel-name:hover {
+  color: #81b3d2;
+}
+
+.hotel-name:focus {
+  color: #cacaca;
+}
+
+.hotel-category {
+  line-height: 21px;
+  color: #333333;
+}
+
+.price-range {
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotels-button-more {
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.hotels-button-more:hover {
+  background-color: #669ec0;
+}
+
+.hotels-button-more:focus {
+  background-color: #5496bd;
+  color: #94b9d2;
+}
+
+.hotels-button-book {
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.hotels-button-book:hover {
+  background-color: #604e43;
+}
+
+.hotels-button-book:focus {
+  background-color: #503e33;
+  color: #928a85;
+}
+
+.stars {
+  list-style: none;
+}
+
+.rate {
+  line-height: 21px;
+  color: #666666;
+  background-color: #f2f2f2; /* Исправить размер фона */
+}

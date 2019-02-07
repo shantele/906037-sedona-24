@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -28,15 +31,14 @@
 
     <section class="main-picture">
       <h2 class="visually-hidden">Виды в Седоне</h2>
-      <img src="img/intro.jpg" width="1200" height="800" alt="Виды гор">
       <img src="img/intro-mask.svg" width="1201" height="59" alt="Декор для изображения">
       <img src="img/intro-welcome.svg" width="459" height="253" alt="Welcome to the gorgeous Sedona">
     </section>
 
     <section class="intro">
       <h2 class="visually-hidden">Кратко о Седоне</h2>
-      <p><b>Седона — небольшой городок в Аризоне,
-          заслуживающий большего!</b></p>
+      <p>Седона — небольшой городок в Аризоне,
+        заслуживающий большего!</p>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </section>
 
@@ -44,34 +46,34 @@
       <h2 class="visually-hidden">Преимущества</h2>
       <ul class="five-reasons">
 
-        <li>
+        <li class="reason-one">
           <img src="img/true_town.jpg" width="800" height="401" alt="Домики в Седоне">
-          <p>Настоящий городок</p>
+          <p>Настоящий<br>городок</p>
           <p>— №1 —</p>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </li>
 
-        <li>
+        <li class="reason-two">
           <img src="img/devils_bridge.jpg" width="800" height="400" alt="Узкий проход по горе">
-          <p>Там есть мост дьявола</p>
+          <p>Там есть<br>мост дьявола</p>
           <p>— №2 —</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </li>
 
-        <li>
-          <p>Небольшая площадь</p>
+        <li class="reasons-item">
+          <p>Небольшая<br>площадь</p>
           <p>— №3 —</p>
           <p>Все достопримечательности находятся очень близко</p>
         </li>
 
-        <li>
-          <p>Красивая дорога</p>
+        <li class="reasons-item">
+          <p>Красивая<br>дорога</p>
           <p>— №4 —</p>
           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
 
-        <li>
-          <p>Мало туристов</p>
+        <li class="reasons-item">
+          <p>Мало<br>туристов</p>
           <p>— №5 —</p>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </li>
@@ -79,17 +81,17 @@
         <li>
           <ul class="components">
 
-            <li>
+            <li class="components-item">
               <p>Жильё</p>
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
 
-            <li>
+            <li class="components-item">
               <p>Еда</p>
               <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
 
-            <li>
+            <li class="components-item">
               <p>Сувениры</p>
               <p>Не только китайского, но и местного производства!</p>
             </li>
@@ -104,35 +106,35 @@
 
     <section class="best-offers">
       <h2 class="visually-hidden">Лучшие предложения гостиниц</h2>
-      <p><b>Заинтересовались?</b></p>
-      <p>Укажите предполагаемые даты поездки,
+      <p>Заинтересовались?</p>
+      <p>Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     </section>
 
     <button type="button" class="button button-search">Поиск гостиницы в Седоне</button>
 
     <section class="search-hotel">
-      <h2 class="visually-hidden">Выбрать даты поезки</h2>
+      <h2 class="visually-hidden">Выбрать даты поездки</h2>
 
       <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 
         <label>Дата заезда:
-          <input type="text" name="check-in" value="24 апреля 2017">
+          <input class="form-fields" type="text" name="check-in" value="24 апреля 2017">
         </label>
 
         <label>Дата выезда:
-          <input type="text" name="check-out" value="4 июля 2017">
+          <input class="form-fields" type="text" name="check-out" value="4 июля 2017">
         </label>
 
         <label>Взрослые:
           <button type="button" class="button button-minus">Минус</button>
-          <input type="text" name="adults" value="2">
+          <input class="form-fields" type="text" name="adults" value="2">
           <button type="button" class="button button-plus">Плюс</button>
         </label>
 
         <label>Дети:
           <button type="button" class="button button-minus">Минус</button>
-          <input type="text" name="children" value="0">
+          <input class="form-fields" type="text" name="children" value="0">
           <button type="button" class="button button-plus">Плюс</button>
         </label>
 
@@ -150,16 +152,16 @@
       #VISITSEDONA
     </p>
     <div class="footer-social">
-      <ul>
-        <li><a class="social-button" href="#">Twitter</a></li>
-        <li><a class="social-button" href="#">Facebook</a></li>
-        <li><a class="social-button" href="#">Youtube</a></li>
+      <ul class="social-buttons">
+        <li><a class="social-button button-twitter" href="#">Twitter</a></li>
+        <li><a class="social-button button-facebook" href="#">Facebook</a></li>
+        <li><a class="social-button button-youtube" href="#">Youtube</a></li>
       </ul>
     </div>
     <p class="footer-copyright">
-      website by
+      <span>website by</span>
       <a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
-        <img src="img/htmlacademy_logo.svg" width="115" height="41" alt="Логотип HTMLacademy">
+        <img class="html-logo" src="img/htmlacademy_logo.svg" width="115" height="41" alt="Логотип HTMLacademy">
       </a>
     </p>
   </footer>
