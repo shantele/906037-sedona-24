@@ -8,8 +8,34 @@ body {
   background-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
+}
+
+.feedback {
+  color: black;
+}
+
+.feedback ul {
+  list-style: none;
+}
+
+.feedback p {
+  margin-bottom: 0;
 }
 
 .main-navigation {
@@ -39,7 +65,7 @@ a {
 }
 
 .main-picture {
-  background-image: url("img/intro.jpg");
+  background-image: url("../img/intro.jpg");
   background-color: #daebf3;
 }
 
@@ -226,8 +252,8 @@ a {
 }
 
 .filters {
-  background-color: #64696f;
-  background-image: url("img/filter-background.jpg");
+  background-color: #6a94ba;
+  background-image: url("../img/filter-background.jpg");
 }
 
 .main-search-form legend {
@@ -235,36 +261,23 @@ a {
   line-height: 21px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #000000;  /* Сделать фон прозрачным */
+  background-color: transparent;
 }
 
-.facilities {
-  line-height: 21px;
-  color: #ffffff;
-  background-color: #000000;  /* Сделать фон прозрачным */
-}
-
+.facilities,
 .building-type {
   line-height: 21px;
   color: #ffffff;
-  background-color: #000000;  /* Сделать фон прозрачным */
+  background-color: transparent;
 }
 
-.choose-price {
-  font: inherit;
-  text-transform: uppercase;
-  line-height: 21px;
-  color: #ffffff;
-  background-color: #000000;  /* Сделать фон прозрачным */
-  border: 2px solid #ffffff;
-}
-
+.choose-price,
 .button-show {
   font: inherit;
   text-transform: uppercase;
   line-height: 21px;
   color: #ffffff;
-  background-color: #000000;  /* Сделать фон прозрачным */
+  background-color: transparent;
   border: 2px solid #ffffff;
 }
 
@@ -280,15 +293,21 @@ a {
   font-weight: bold;
 }
 
-.sorting-header {
+.sorting-header,
+.sorting a {
   font-size: 12px;
   line-height: 18px;
 }
 
-.by-parameter a {
-  font-size: 12px;
-  line-height: 18px;
+.sorting a {
   color: #cacaca;
+}
+
+.sorting a:active {
+  color: #81b3d2;
+}
+
+.by-parameter a {
   text-decoration: underline;
   text-decoration-style: dotted;
 }
@@ -302,32 +321,17 @@ a {
   text-decoration: none;
 }
 
-.current-sorting a {
-  color: #81b3d2;
-  text-decoration: none;
-}
-
-.ascending a,
-.descending a {
-  font-size: 12px;
-  line-height: 18px;
-  color: #cacaca;
-}
-
-.ascending a:hover,
-.descending a:hover {
+.sort-direction a:hover {
   color: #000000;
 }
 
-.ascending a:focus,
-.descending a:focus {
+.sort-direction a:focus {
   color: #81b3d2;
 }
 
-.current-direction a {
+/*.current-sorting a {
   color: #81b3d2;
-}
-
+}*/
 .hotel-name {
   font-size: 21px;
   font-weight: bold;
@@ -391,5 +395,6 @@ a {
 .rate {
   line-height: 21px;
   color: #666666;
-  background-color: #f2f2f2; /* Исправить размер фона */
+  background-color: #f2f2f2;
+  /* Исправить размер фона */
 }
